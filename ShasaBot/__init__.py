@@ -100,7 +100,7 @@ if ENV:
         raise Exception("Your blacklisted chats list does not contain valid integers.")
 
 else:
-    from YoneRobot.config import Development as Config
+    from ShasaBot.config import Development as Config
 
     TOKEN = Config.TOKEN
 
