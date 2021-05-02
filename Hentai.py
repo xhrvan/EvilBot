@@ -1,5 +1,5 @@
 import requests
-import nekos
+import ShasaBot.modules.hentai as hemtai
 from PIL import Image
 import os
 
