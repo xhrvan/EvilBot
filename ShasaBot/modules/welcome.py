@@ -6,7 +6,7 @@ from functools import partial
 from contextlib import suppress
 
 import ShasaBot.modules.sql.welcome_sql as sql
-import Shasabot
+import ShasaBot
 from ShasaBot import (
     DEV_USERS,
     LOGGER,
