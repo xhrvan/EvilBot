@@ -11,11 +11,11 @@
 </p>
 
 <p align="center">
-  <img src="https://telegra.ph/file/977804a3688cded6ba673.jpg">
+  <img src="https://telegra.ph/file/7e61fe06a9c02747249c4.jpg">
 </p>
 
-# MissShasa_Gbot
-Me On Telegram [✨Miss Shasa✨](http://t.me/MissShasa_bot)
+# YoneRobot
+Me On Telegram [✨Yone✨](https://t.me/YoneRobot)
 
 ## How To Host
 The easiest way to deploy this Bot
@@ -24,9 +24,6 @@ The easiest way to deploy this Bot
 CREDITS
 ```
 ❤️ MashaRobot = Dark Prince
-💜 Kittu 
-❤️ Sammy
-
 
 
 ```
