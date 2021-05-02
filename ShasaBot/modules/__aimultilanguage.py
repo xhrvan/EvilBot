@@ -117,7 +117,7 @@ async def hmm(client, message):
         result = response.text
         result = result.replace('{"cnt":"', "")
         result = result.replace('"}', "")
-        result = result.replace("Aco", "shasa
+        result = result.replace("Aco", "shasa"
         result = result.replace("<a href=\\", "<a href =")
         result = result.replace("<\/a>", "</a>")
         pro = result
