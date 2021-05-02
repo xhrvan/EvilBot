@@ -1,5 +1,5 @@
 import requests
-import ShasaBot.modules.lewd as neko
+import nekos
 from PIL import Image
 import os
 
