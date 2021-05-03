@@ -76,7 +76,7 @@ __New couple of the day may be chosen at 12AM {tomorrow}__"""
     #     await message.reply_text(e)
 
 
-__help__ = """\n
+__help__ = """
  ❍ /couples - To Choose Couple Of The Day
 
  """
