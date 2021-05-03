@@ -74,7 +74,7 @@ def get_readable_time(seconds: int) -> str:
 
 
 PM_START_TEXT = """
-`Hellow` [🤗](https://telegra.ph/file/7e61fe06a9c02747249c4.jpg) `My name is` *Miss Shasa*
+`Hellow` [🤗](https://t.me/addstickers/punipuni_kigurumichan) `My name is` *Miss Shasa*
 `I'm here to help you manage your groups! Hit` *📚Commands*   
 """
 
@@ -96,11 +96,11 @@ buttons = [
 
 
 HELP_STRINGS = """
-`Hi.. I'm` [Shasa🙋‍♀️](https://telegra.ph/file/7e61fe06a9c02747249c4.jpg)
+`Hi.. I'm` [Shasa🙋‍♀️](https://telegra.ph/file/80a08738ba5674cfd94e5.jpg)
 `Click on the buttons below to get documentation about specific modules..`"""
 
 
-shasa_IMG = "https://telegra.ph/file/7e61fe06a9c02747249c4.jpg"
+shasa_IMG = "https://telegra.ph/file/80a08738ba5674cfd94e5.jpg"
 
 DONATE_STRING = """Heya, glad to hear you want to donate!
  You can support the project via [Paypal](#) or by contacting @a_viyu or @simpleboy786 \
