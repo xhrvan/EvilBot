@@ -1,16 +1,16 @@
 {
-      "name": "Asuna Robot",
+      "name": "Shasa Bot",
       "description": "An Anime Theme Telegram group management bot.",
       "keywords": [
          "telegram",
          "anime",
          "group",
          "manager",
-         "Asuna"
+         "Shasa"
       ],
     
-   "logo":    "https://telegra.ph/file/a303f7801d60dc1ea3017.jpg",  
-   "repository": "https://github.com/HuntingBots/AsunaRobot",
+   "logo":    "https://telegra.ph/file/c3254e92e7672b773f942.jpg",  
+   "repository": "https://github.com/Mdnoor786/ShasaBot",
    "addons": [
           {
          "options": {
@@ -43,12 +43,12 @@
       "OWNER_ID": {
          "description": "Your user ID as an integer.",
          "required": true,
-         "value": "1606221784"
+         "value": "1099219137"
       },
       "BOT_ID": {
          "description": "Your bot ID.. Use any other bot to get it.",
          "required": true,
-         "value": "1606221784"
+         "value": "1791708933"
       },
       "HEROKU_API_KEY": {
         "description": "Your Heroku API key, get it from 'https://dashboard.heroku.com/account'",
@@ -60,12 +60,12 @@
       },
       "OWNER_USERNAME": {
          "description": "Your username without the @",
-         "value": "The_Ghost_Hunter"
+         "value": "Simpleboy786"
       },
       "SUPPORT_CHAT": {
          "description": "Your Telegram support group chat username where your users will go and bother you with shit But be like: MyGroupChatUsernameBlah. If this ever points to masha support than consider you made an enemy.",
          "required": true,
-         "value": "AsunaRobotSupport"
+         "value": "missShasa_Gbot"
       },
       "MONGO_DB_URI": {
          "description": "Required for database connections.",
