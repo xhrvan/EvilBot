@@ -1,4 +1,5 @@
 from ShasaBot import pbot as app
+from ShasaBot.utils.errors import capture_err
 from ShasaBot.utils.dbfunc import get_couple, save_couple
 from pyrogram import filters
 import random
@@ -77,9 +78,8 @@ __New couple of the day may be chosen at 12AM {tomorrow}__"""
 
 
 
-
-❍ /couples - To Choose Couple Of The Day
+__help__ = """
+ ❍ /couples - To Choose Couple Of The Day
 
  """
 __mod_name__ = "Couples"
-
