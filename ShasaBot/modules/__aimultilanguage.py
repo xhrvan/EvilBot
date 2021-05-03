@@ -267,6 +267,7 @@ async def inuka(client, message):
     & ~filters.reply
     & ~filters.channel  
 )
+
 async def inuka(client, message):
     msg = message.text
     if msg.startswith("/") or msg.startswith("@"):
