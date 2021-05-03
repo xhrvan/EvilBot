@@ -1,5 +1,4 @@
 from ShasaBot import pbot as app
-from ShasaBot.utils.errors import capture_err
 from ShasaBot.utils.dbfunc import get_couple, save_couple
 from pyrogram import filters
 import random
@@ -25,7 +24,6 @@ tomorrow = str(dt_tom())
 
 
 @app.on_message(filters.command("couples") & ~filters.edited)
-@capture_err
 async def couple(_, message):
     if message.chat.type == "private":
         await message.reply_text("This command only works in groups.")
@@ -73,9 +71,9 @@ __New couple of the day may be chosen at 12AM {tomorrow}__"""
                 message.chat.id,
                 text=couple_selection_message
             )
-    except Exception as e:
-        print(e)
-        await message.reply_text(e)
+    # except Exception as e:
+    #     print(e)
+    #     await message.reply_text(e)
 
 
 
