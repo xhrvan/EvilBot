@@ -64,4 +64,5 @@ better_profanity
 textblob 
 nudepy
 faker
+nekos.py
 motor
