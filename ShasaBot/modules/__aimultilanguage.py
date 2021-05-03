@@ -259,7 +259,7 @@ async def inuka(client, message):
         print(e)
 
 
-@asuna.on_message(
+@shasa.on_message(
     filters.regex("shasa|Shasa|huntinbots|hello|hi")
     & ~filters.bot
     & ~filters.via_bot
