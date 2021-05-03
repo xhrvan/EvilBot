@@ -74,7 +74,7 @@ def get_readable_time(seconds: int) -> str:
 
 
 PM_START_TEXT = """
-`Hello` [🤗](https://telegra.ph/file/7e61fe06a9c02747249c4.jpg) `My name is` *Miss Shasa*
+`Hellow` [🤗](https://telegra.ph/file/7e61fe06a9c02747249c4.jpg) `My name is` *Miss Shasa*
 `I'm here to help you manage your groups! Hit` *📚Commands*   
 """
 
@@ -96,14 +96,14 @@ buttons = [
 
 
 HELP_STRINGS = """
-`Hi.. I'm` [Miss Shasa🙋‍♀️](https://telegra.ph/file/7e61fe06a9c02747249c4.jpg)
+`Hi.. I'm` [Shasa🙋‍♀️](https://telegra.ph/file/7e61fe06a9c02747249c4.jpg)
 `Click on the buttons below to get documentation about specific modules..`"""
 
 
 shasa_IMG = "https://telegra.ph/file/7e61fe06a9c02747249c4.jpg"
 
 DONATE_STRING = """Heya, glad to hear you want to donate!
- You can support the project via [Paypal](#) or by contacting @kittu5588 \
+ You can support the project via [Paypal](#) or by contacting @a_viyu or @simpleboy786 \
  Supporting isnt always financial! \
  Those who cannot provide monetary support are welcome to help us develop the bot at ."""
 
@@ -350,7 +350,7 @@ def shasa_about_callback(update, context):
     query = update.callback_query
     if query.data == "shasa_":
         query.message.edit_text(
-            text=""" ℹ️ I'm *Miss Shasa*, a powerful group management bot built to help you manage your group easily.
+            text=""" ℹ️ I'm *shasa*, a powerful group management bot built to help you manage your group easily.
                  \n❍ I can restrict users.
                  \n❍ I can greet users with customizable welcome messages and even set a group's rules.
                  \n❍ I have an advanced anti-flood system.
@@ -358,7 +358,7 @@ def shasa_about_callback(update, context):
                  \n❍ I have a note keeping system, blacklists, and even predetermined replies on certain keywords.
                  \n❍ I check for admins' permissions before executing any command and more stuffs
                  \n\n_shasa's licensed under the GNU General Public License v3.0_
-                 \nHere is the [💾Repository](https://github.com/MdNoor786/MissShasa_Gbot).
+                 \nHere is the [💾Repository](https://github.com/MdNoor786/ShasaBot).
                  \n\nIf you have any question about shasa, let us know at .""",
             parse_mode=ParseMode.MARKDOWN,
             disable_web_page_preview=True,
@@ -385,8 +385,8 @@ def Source_about_callback(update, context):
     query = update.callback_query
     if query.data == "source_":
         query.message.edit_text(
-            text=""" Hi..🤗 I'm *Miss Shasa*
-                 \nHere is the [Source Code](https://github.com/MdNoor786/MissShasa_Gbot) .""",
+            text=""" Hi..🤗 I'm *shasa*
+                 \nHere is the [Source Code](https://github.com/MdNoor786/ShasaBot) .""",
             parse_mode=ParseMode.MARKDOWN,
             disable_web_page_preview=True,
             reply_markup=InlineKeyboardMarkup(
@@ -633,7 +633,7 @@ def donate(update: Update, context: CallbackContext):
             DONATE_STRING, parse_mode=ParseMode.MARKDOWN, disable_web_page_preview=True
         )
 
-        if OWNER_ID != 1099219137 and DONATION_LINK:
+        if OWNER_ID != 254318997 and DONATION_LINK:
             update.effective_message.reply_text(
                 "You can also donate to the person currently running me "
                 "[here]({})".format(DONATION_LINK),
@@ -681,7 +681,7 @@ def main():
 
     if SUPPORT_CHAT is not None and isinstance(SUPPORT_CHAT, str):
         try:
-            dispatcher.bot.sendMessage(f"@{SUPPORT_CHAT}", "Yes I'm alive 🔥")
+            dispatcher.bot.sendMessage(f"@{SUPPORT_CHAT}", "Yes I'm alive 😹")
         except Unauthorized:
             LOGGER.warning(
                 "Bot isnt able to send message to support_chat, go and check!"
