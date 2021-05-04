@@ -55,6 +55,7 @@ bs4
 bing_image_downloader
 search_engine_parser
 pytz
+nekos.py
 lyricsgenius
 tswift
 python-arq
