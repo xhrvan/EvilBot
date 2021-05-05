@@ -6,13 +6,13 @@ import os
 from PIL import Image
 from datetime import datetime
 from telegraph import Telegraph, upload_file, exceptions
-kittu = "YONE"
+mdnoor = "SHASA"
 telegraph = Telegraph()
-r = telegraph.create_account(short_name=kittu)
+r = telegraph.create_account(short_name=mdnoor)
 auth_url = r["auth_url"]
 
 
-@register(pattern="^/t(xm|xt) ?(.*)")
+@register(pattern="^/t(m|xt) ?(.*)")
 async def _(event):
     if event.fwd_from:
         return
@@ -42,7 +42,7 @@ async def _(event):
                 ms_two = (end - start).seconds
                 os.remove(downloaded_file_name)
                 await h.edit("Uploaded to https://telegra.ph{})".format(media_urls[0]), link_preview=True)
-        elif input_str == "t":
+        elif input_str == "xt":
             user_object = await tbot.get_entity(r_message.sender_id)
             title_of_page = user_object.first_name # + " " + user_object.last_name
             # apparently, all Users do not have last_name field
@@ -77,3 +77,5 @@ async def _(event):
 def resize_image(image):
     im = Image.open(image)
     im.save(image, "PNG")
+
+
