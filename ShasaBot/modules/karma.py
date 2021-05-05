@@ -1,6 +1,6 @@
 
 import karma
-from ShasaBot import app
+from ShasaBot import karma
 from ShasaBot.utils.errors import capture_err
 from ShasaBot.modules.admin import member_permissions
 from ShasaBot.utils.dbfunctions import (update_karma, get_karma, get_karmas,
