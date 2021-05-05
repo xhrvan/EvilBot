@@ -7,7 +7,7 @@ from telethon.tl.types import ChatBannedRights, ChannelParticipantsAdmins
 from ShasaBot import telethn
 from ShasaBot.events import register
 
-from MashaRoBot import telethn, OWNER_ID, DEV_USERS, DRAGONS, DEMONS
+from ShasaBot import telethn, OWNER_ID, DEV_USERS, DRAGONS, DEMONS
 
 # =================== CONSTANT ===================
 
