@@ -53,8 +53,3 @@ async def _(event):
         await event.reply("`{}`".format(the_real_message))
 
 
-__help__ = """
-• `/json`*:* Get Detailed info about any message
-"""
-
-__mod_name__ = "JSON"
