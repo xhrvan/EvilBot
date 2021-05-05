@@ -1,4 +1,5 @@
 
+import karma
 from ShasaBot import app
 from ShasaBot.utils.errors import capture_err
 from ShasaBot.modules.admin import member_permissions
