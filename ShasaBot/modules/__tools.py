@@ -23,6 +23,7 @@ _Admins only:_
  ❍ /unzip*:* reply to a telegram file to decompress it from the .zip format
  
 *Json*
-❍ /json`*:* Get Detailed info about any message
+ ❍ /json`*:* Get Detailed info about any message.
+
 """
 
