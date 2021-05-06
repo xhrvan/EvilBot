@@ -1,9 +1,10 @@
 import random
 
+from telegram import Bot, Update
+from telegram.ext import run_async
+
 from ShasaBot import dispatcher
 from ShasaBot.modules.disable import DisableAbleCommandHandler
-from telegram import Update
-from telegram.ext import CallbackContext, run_async
 
 reactions = [
     "( ͡° ͜ʖ ͡°)",
@@ -36,7 +37,7 @@ reactions = [
     "((( ￣□)_／",
     "(ﾒ￣▽￣)︻┳═一",
     "ヽ( ･∀･)ﾉ_θ彡☆Σ(ノ `Д´)ノ",
-    "(*`0´)θ☆(メ°皿°)ﾉ",
+	"(*`0´)θ☆(メ°皿°)ﾉ",
     "(; -_-)――――――C<―_-)",
     "ヽ(>_<ヽ) ―⊂|=0ヘ(^‿^ )",
     "(҂` ﾛ ´)︻デ═一 ＼(º □ º l|l)/",
@@ -207,12 +208,12 @@ reactions = [
     "-●●●-ｃ(・・ )",
     "(ﾉ≧∀≦)ﾉ ‥…━━━★",
     "╰( ͡° ͜ʖ ͡° )つ──☆*:・ﾟ",
-    "(∩ᄑ_ᄑ)⊃━☆ﾟ*･｡*･:≡( ε:)",
+    "(∩ᄑ_ᄑ)⊃━☆ﾟ*･｡*･:≡( ε:)"
 ]
 
 
 @run_async
-def react(update: Update, context: CallbackContext):
+def react(bot: Bot, update: Update):
     message = update.effective_message
     react = random.choice(reactions)
     if message.reply_to_message:
@@ -221,9 +222,14 @@ def react(update: Update, context: CallbackContext):
         message.reply_text(react)
 
 
+__help__ = """
+ - /react: Reacts with a random reaction
+"""
+
 REACT_HANDLER = DisableAbleCommandHandler("react", react)
 
 dispatcher.add_handler(REACT_HANDLER)
 
+__mod_name__ = "REACT"
 __command_list__ = ["react"]
 __handlers__ = [REACT_HANDLER]
