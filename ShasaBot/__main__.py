@@ -74,14 +74,14 @@ def get_readable_time(seconds: int) -> str:
 
 
 PM_START_TEXT = """
-`Hellow` [🤗](https://telegra.ph/file/ebf62ff4c5668adcfa28c.jpg) `My name is` *shasa*
+`Hellow` [🤗](https://telegra.ph/file/c4b69de63b6525efad6dd.jpg) `My name is` *Shasa*
 `I'm here to help you manage your groups! Hit` *📚Commands*   
 """
 
 buttons = [
     [
         InlineKeyboardButton(
-            text="➕️ Add shasa To Your Group ➕️", url="t.me/MissShasa_bott?startgroup=true"),
+            text="➕️ Add Shasa To Your Group ➕️", url="t.me/MissShasa_bot?startgroup=true"),
     ],
     [
         InlineKeyboardButton(text="About", callback_data="shasa_"),
@@ -96,11 +96,11 @@ buttons = [
 
 
 HELP_STRINGS = """
-`Hi.. I'm` [shasa🙋‍♀️](https://telegra.ph/file/082096b101615e33eaf19.jpg)
+`Hi.. I'm` [Shasa🙋‍♀️](https://telegra.ph/file/c4b69de63b6525efad6dd.jpg)
 `Click on the buttons below to get documentation about specific modules..`"""
 
 
-shasa_IMG = "https://telegra.ph/file/ebf62ff4c5668adcfa28c.jpg"
+shasa_IMG = "https://telegra.ph/file/c4b69de63b6525efad6dd.jpg"
 
 DONATE_STRING = """Heya, glad to hear you want to donate!
  You can support the project via [Paypal](#) or by contacting @SimpleBoy786 \
