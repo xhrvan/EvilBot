@@ -306,7 +306,7 @@ def can_pin(func):
                 cant_pin, parse_mode=ParseMode.HTML)
 
     return pin_rights
-
+    
 def can_promote(func):
     @wraps(func)
     def promote_rights(update: Update, context: CallbackContext, *args, **kwargs):
