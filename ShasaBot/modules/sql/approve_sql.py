@@ -4,7 +4,6 @@ from sqlalchemy import Column, String, UnicodeText, Integer, func, distinct
 
 from ShasaBot.modules.sql import BASE, SESSION
 
-
 class Approvals(BASE):
     __tablename__ = "approval"
     chat_id = Column(String(14), primary_key=True)
@@ -51,11 +50,8 @@ def disapprove(chat_id, user_id):
 
 def list_approved(chat_id):
     try:
-        return (
-            SESSION.query(Approvals)
-            .filter(Approvals.chat_id == str(chat_id))
-            .order_by(Approvals.user_id.asc())
-            .all()
-        )
+        return (SESSION.query(Approvals).filter(
+            Approvals.chat_id == str(chat_id)).order_by(
+                Approvals.user_id.asc()).all())
     finally:
         SESSION.close()
