@@ -1,4 +1,4 @@
-from ShasaBot import db
+from ShasaBot import mongo
 from typing import Dict, List, Union
 
 karmadb = db.karma
