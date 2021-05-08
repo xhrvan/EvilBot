@@ -74,14 +74,14 @@ def get_readable_time(seconds: int) -> str:
 
 
 PM_START_TEXT = """
-`Hellow` [🤗](https://t.me/addstickers/punipuni_kigurumichan) `My name is` *Miss Shasa*
+`Hellow` [🤗](https://telegra.ph/file/ebf62ff4c5668adcfa28c.jpg) `My name is` *shasa*
 `I'm here to help you manage your groups! Hit` *📚Commands*   
 """
 
 buttons = [
     [
         InlineKeyboardButton(
-            text="➕️ Add Shasa To Your Group ➕️", url="t.me/MissShasa_bot?startgroup=true"),
+            text="➕️ Add shasa To Your Group ➕️", url="t.me/MissShasa_bott?startgroup=true"),
     ],
     [
         InlineKeyboardButton(text="About", callback_data="shasa_"),
@@ -90,20 +90,20 @@ buttons = [
         ),
     ],
     [
-        InlineKeyboardButton(text="Help & Commands", callback_data="help_back"),
+        InlineKeyboardButton(text="Help & Commands❔", callback_data="help_back"),
     ],
 ]
 
 
 HELP_STRINGS = """
-`Hi.. I'm` [Shasa🙋‍♀️](https://telegra.ph/file/80a08738ba5674cfd94e5.jpg)
+`Hi.. I'm` [shasa🙋‍♀️](https://telegra.ph/file/082096b101615e33eaf19.jpg)
 `Click on the buttons below to get documentation about specific modules..`"""
 
 
-shasa_IMG = "https://telegra.ph/file/80a08738ba5674cfd94e5.jpg"
+shasa_IMG = "https://telegra.ph/file/ebf62ff4c5668adcfa28c.jpg"
 
 DONATE_STRING = """Heya, glad to hear you want to donate!
- You can support the project via [Paypal](#) or by contacting @a_viyu or @simpleboy786 \
+ You can support the project via [Paypal](#) or by contacting @SimpleBoy786 \
  Supporting isnt always financial! \
  Those who cannot provide monetary support are welcome to help us develop the bot at ."""
 
@@ -350,7 +350,7 @@ def shasa_about_callback(update, context):
     query = update.callback_query
     if query.data == "shasa_":
         query.message.edit_text(
-            text=""" ℹ️ I'm *shasa*, a powerful group management bot built to help you manage your group easily.
+            text=""" ℹ️ I'm *Shasa*, a powerful group management bot built to help you manage your group easily.
                  \n❍ I can restrict users.
                  \n❍ I can greet users with customizable welcome messages and even set a group's rules.
                  \n❍ I have an advanced anti-flood system.
