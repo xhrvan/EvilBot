@@ -1,5 +1,5 @@
 <p align="center">
-    <a href="https://github.com/MdNoor786/ShasaBot-1/stargazers"><img src="https://img.shields.io/github/stars/MdNoor786/ShasaBot?label=Stars&style=flat-square&logo=github&color=F10070" alt="Stars" /></a>
+    <a href="https://github.com/MdNoor786/ShasaBot-1/stargazers"><img src="https://img.shields.io/github/stars/MdNoor786/ShasaBot-1?label=Stars&style=flat-square&logo=github&color=F10070" alt="Stars" /></a>
 </p>
 <p align="center">
     <a href="https://app.codacy.com/manual/MdNoor786/ShasaBot-1/dashboard"> <img src="https://img.shields.io/codacy/grade/4d58f2a402b54aed8a7d95f7add45a81?color=brightgreen&logo=codacy&logoColor=green&style=for-the-badge" alt="Codacy" /></a>
