@@ -1,12 +1,12 @@
 <p align="center">
-    <a href="https://github.com/MdNoor786/ShasaBot/stargazers"><img src="https://img.shields.io/github/stars/MdNoor786/ShasaBot?label=Stars&style=flat-square&logo=github&color=F10070" alt="Stars" /></a>
+    <a href="https://github.com/MdNoor786/ShasaBot-1/stargazers"><img src="https://img.shields.io/github/stars/MdNoor786/ShasaBot?label=Stars&style=flat-square&logo=github&color=F10070" alt="Stars" /></a>
 </p>
 <p align="center">
-    <a href="https://app.codacy.com/manual/MdNoor786/ShasaBot/dashboard"> <img src="https://img.shields.io/codacy/grade/4d58f2a402b54aed8a7d95f7add45a81?color=brightgreen&logo=codacy&logoColor=green&style=for-the-badge" alt="Codacy" /></a>
-    <a href="https://github.com/MdNoor786/ShasaBot"> <img src="https://img.shields.io/github/repo-size/MdNoor786/ShasaBot?color=orange&logo=github&logoColor=green&style=for-the-badge" /></a>
-    <a href="https://github.com/MdNoor786/ShasaBot/commits/prince"> <img src="https://img.shields.io/github/last-commit/MdNoor786/ShasaBot?color=blue&logo=github&logoColor=green&style=for-the-badge" /></a>
-    <a href="https://github.com/MdNoor786/ShasaBot/issues"> <img src="https://img.shields.io/github/issues/MdNoor786/ShasaBot?color=blueviolet&logo=github&logoColor=green&style=for-the-badge" /></a>
-    <a href="https://github.com/MdNoor786/ShasaBot/network/members"> <img src="https://img.shields.io/github/forks/MdNoor786/ShasaBot?color=red&logo=github&logoColor=green&style=for-the-badge" /></a>  
+    <a href="https://app.codacy.com/manual/MdNoor786/ShasaBot-1/dashboard"> <img src="https://img.shields.io/codacy/grade/4d58f2a402b54aed8a7d95f7add45a81?color=brightgreen&logo=codacy&logoColor=green&style=for-the-badge" alt="Codacy" /></a>
+    <a href="https://github.com/MdNoor786/ShasaBot-1"> <img src="https://img.shields.io/github/repo-size/MdNoor786/ShasaBot-1?color=orange&logo=github&logoColor=green&style=for-the-badge" /></a>
+    <a href="https://github.com/MdNoor786/ShasaBot-1/commits/prince"> <img src="https://img.shields.io/github/last-commit/MdNoor786/ShasaBot-1?color=blue&logo=github&logoColor=green&style=for-the-badge" /></a>
+    <a href="https://github.com/MdNoor786/ShasaBot-1/issues"> <img src="https://img.shields.io/github/issues/MdNoor786/ShasaBot-1?color=blueviolet&logo=github&logoColor=green&style=for-the-badge" /></a>
+    <a href="https://github.com/MdNoor786/ShasaBot-1/network/members"> <img src="https://img.shields.io/github/forks/MdNoor786/ShasaBot-1?color=red&logo=github&logoColor=green&style=for-the-badge" /></a>  
     <a href="https://pypi.org/project/Telethon/"> <img src="https://img.shields.io/pypi/v/telethon?color=yellow&label=telethon&logo=python&logoColor=green&style=for-the-badge" /></a>
 </p>
 
