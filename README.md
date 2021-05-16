@@ -11,11 +11,11 @@
 </p>
 
 <p align="center">
-  <img src="https://telegra.ph/file/977804a3688cded6ba673.jpg">
+  <img src="https://telegra.ph/file/95a4e9bf8860446c7d150.jpg">
 </p>
 
-# MissShasa_Gbot
-Me On Telegram [✨Miss Shasa✨](http://t.me/MissShasa_bot)
+# 1732910930
+Me On Telegram [✨𝙈𝙄𝙎𝙎 𝙆𝙍𝙄𝙎𝙏𝙄𝙉𝘼✨](https://t.me/MISS_KRISTINA_BOT)
 
 ## How To Host
 The easiest way to deploy this Bot
@@ -25,6 +25,7 @@ CREDITS
 ```
 ❤️ MashaRobot = Dark Prince
 💜 YoneRobot. = Kittu 
+🔥Miss Shasha = Md Noor
 
 
 
