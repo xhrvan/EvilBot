@@ -1,5 +1,5 @@
 {
-      "name": "Shasa Bot",
+      "name": "MissKristinaBot",
       "description": "An Anime Theme Telegram group management bot.",
       "keywords": [
          "telegram",
@@ -9,7 +9,7 @@
          "Shasa"
       ],
     
-   "logo":    "https://telegra.ph/file/c3254e92e7672b773f942.jpg",  
+   "logo":    "https://telegra.ph/file/6e28c8f87aec438c81c1c.jpg",  
    "repository": "https://github.com/xdipesh/Miss_Kristina",
    "addons": [
           {
@@ -43,12 +43,12 @@
       "OWNER_ID": {
          "description": "Your user ID as an integer.",
          "required": true,
-         "value": "1099219137"
+         "value": "1801571739"
       },
       "BOT_ID": {
          "description": "Your bot ID.. Use any other bot to get it.",
          "required": true,
-         "value": "1791708933"
+         "value": "1731728154"
       },
       "HEROKU_API_KEY": {
         "description": "Your Heroku API key, get it from 'https://dashboard.heroku.com/account'",
@@ -60,12 +60,12 @@
       },
       "OWNER_USERNAME": {
          "description": "Your username without the @",
-         "value": "Simpleboy786"
+         "value": "DIPESH_XD"
       },
       "SUPPORT_CHAT": {
          "description": "Your Telegram support group chat username where your users will go and bother you with shit But be like: MyGroupChatUsernameBlah. If this ever points to masha support than consider you made an enemy.",
          "required": true,
-         "value": "missShasa_Gbot"
+         "value": "KristinaSupportGroup"
       },
       "MONGO_DB_URI": {
          "description": "Required for database connections.",
@@ -175,7 +175,7 @@
       "DONATION_LINK": {
          "description": "Optional: link where you would like to receive donations. If you are a noob, better leave it linking to paul",
          "required": false,
-         "value": "https://www.paypal.me/PaulSonOfLars"
+         "value": "https://www.paypal.me/"
       },
       "DEL_CMDS": {
          "description": "Set this to True if you want to delete command messages from users who don't have the perms to run that command.",
