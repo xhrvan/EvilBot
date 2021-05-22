@@ -19,13 +19,12 @@ Me On Telegram [✨𝙈𝙄𝙎𝙎 𝙆𝙍𝙄𝙎𝙏𝙄𝙉𝘼✨](https:/
 
 ## How To Host
 The easiest way to deploy this Bot
-<p align="center"><a href="https://heroku.com/deploy?template=https://github.com/xdipesh/Miss_Kristina"> <img src="https://img.shields.io/badge/Deploy%20To%20Heroku-black?style=for-the-badge&logo=heroku" width="220" height="38.45"/></a></p>
+[![Deploy](https://www.herokucdn.com/deploy/button.svg)](https://github.com/xdipesh/MissKristina)
  
 CREDITS
 ```
 ❤️ MashaRobot = Dark Prince
 💜 YoneRobot. = Kittu 
-🔥Miss Shasha = Md Noor
 
 
 
