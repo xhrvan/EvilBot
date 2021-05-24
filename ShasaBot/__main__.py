@@ -100,7 +100,7 @@ HELP_STRINGS = """
 `Click on the buttons below to get documentation about specific modules..`"""
 
 
-shasa_IMG = "https://telegra.ph/file/95a4e9bf8860446c7d150.jpg"
+shasa_IMG = "https://telegra.ph/file/c0224d28d3c7f111ccd40.jpg"
 
 DONATE_STRING = """Heya, glad to hear you want to donate!
  You can support the project via [Paypal](#) or by contacting @DIPESH_XD \
