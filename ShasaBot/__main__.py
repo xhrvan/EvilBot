@@ -74,19 +74,19 @@ def get_readable_time(seconds: int) -> str:
 
 
 PM_START_TEXT = """
-`Hellow` [🤗](https://telegra.ph/file/c0224d28d3c7f111ccd40.jpg) `My name is` *Kristina*
+`Hellow` [🤗](https://telegra.ph/file/189e33de2ca2551a89622.jpg) `My name is` *PikachuX*
 `I'm here to help you manage your groups! Hit` *📚Commands*   
 """
 
 buttons = [
     [
         InlineKeyboardButton(
-            text="ᴀᴅᴅ ᴋʀɪsᴛɪɴᴀ ᴛᴏ ʏᴏᴜʀ ɢʀᴏᴜᴘ", url="t.me/MISS_KRISTINA_BOT?startgroup=true"),
+            text="ᴀᴅᴅ ᴋʀɪsᴛɪɴᴀ ᴛᴏ ʏᴏᴜʀ ɢʀᴏᴜᴘ", url="t.me/Pikachu_X_bot?startgroup=true"),
     ],
     [
         InlineKeyboardButton(text="ᴀʙᴏᴜᴛ", callback_data="shasa_"),
         InlineKeyboardButton(
-            text="sᴜᴘᴘᴏʀᴛ", url=f"https://t.me/KristinaSupportGroup"
+            text="sᴜᴘᴘᴏʀᴛ", url=f"https://t.me/PikachuX_Support"
         ),
     ],
     [
@@ -96,14 +96,14 @@ buttons = [
 
 
 HELP_STRINGS = """
-`Hi.. I'm` [Kristina🙋‍♀️](https://telegra.ph/file/c0224d28d3c7f111ccd40.jpg)
+`Hi.. I'm` [PikachuX🙋‍♀️](https://telegra.ph/file/189e33de2ca2551a89622.jpg)
 `Click on the buttons below to get documentation about specific modules..`"""
 
 
-shasa_IMG = "https://telegra.ph/file/c0224d28d3c7f111ccd40.jpg"
+shasa_IMG = "https://telegra.ph/file/189e33de2ca2551a89622.jpg"
 
 DONATE_STRING = """Heya, glad to hear you want to donate!
- You can support the project via [Paypal](#) or by contacting @DIPESH_XD \
+ You can support the project via [Paypal](#) or by contacting @kaal0408 \
  Supporting isnt always financial! \
  Those who cannot provide monetary support are welcome to help us develop the bot at ."""
 
@@ -358,8 +358,8 @@ def shasa_about_callback(update, context):
                  \n❍ I have a note keeping system, blacklists, and even predetermined replies on certain keywords.
                  \n❍ I check for admins' permissions before executing any command and more stuffs
                  \n\n_shasa's licensed under the GNU General Public License v3.0_
-                 \nHere is the [💾Repository](https://t.me/KristinaSupportGroup/40).
-                 \n\nIf you have any question about Kristina, let us know at .""",
+                 \nHere is the [💾Repository](https://t.me/PikachuX_Support/39).
+                 \n\nIf you have any question about PikachuX, let us know at .""",
             parse_mode=ParseMode.MARKDOWN,
             disable_web_page_preview=True,
             reply_markup=InlineKeyboardMarkup(
@@ -386,7 +386,7 @@ def Source_about_callback(update, context):
     if query.data == "source_":
         query.message.edit_text(
             text=""" Hi..🤗 I'm *Kristina*
-                 \nHere is the [Source Code](https://t.me/KristinaSupportGroup/40) .""",
+                 \nHere is the [Source Code](https://t.me/PikachuX_Support/39) .""",
             parse_mode=ParseMode.MARKDOWN,
             disable_web_page_preview=True,
             reply_markup=InlineKeyboardMarkup(
