@@ -1,5 +1,5 @@
 {
-      "name": "MissKristinaBot",
+      "name": "PikachuX",
       "description": "An Anime Theme Telegram group management bot.",
       "keywords": [
          "telegram",
@@ -10,7 +10,7 @@
       ],
     
    "logo":    "https://telegra.ph/file/6e28c8f87aec438c81c1c.jpg",  
-   "repository": "https://github.com/xdipesh/Miss_Kristina",
+   "repository": "https://github.com/kaal0408/PikachuX",
    "addons": [
           {
          "options": {
