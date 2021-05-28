@@ -11,11 +11,11 @@
 </p>
 
 <p align="center">
-  <img src="https://telegra.ph/file/66aa807d148a9bdadf260.jpg">
+  <img src="https://telegra.ph/file/189e33de2ca2551a89622.jpg">
 </p>
 
 # 𝙈𝙄𝙎𝙎 𝙆𝙍𝙄𝙎𝙏𝙄𝙉𝘼
-Me On Telegram [✨PikachuX✨](https://t.me/MISS_KRISTINA_BOT)
+Me On Telegram [✨PikachuX✨](https://t.me/Pikachu_X_bot)
 
 ## How To Host
 The easiest way to deploy this Bot
@@ -26,7 +26,7 @@ CREDITS
 ```
 ❤️ MashaRobot = Dark Prince
 💜 YoneRobot. = Kittu 
-
+💖 Legendbot  = Manjeet
 
 
 
