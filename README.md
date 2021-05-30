@@ -14,7 +14,7 @@
   <img src="https://telegra.ph/file/189e33de2ca2551a89622.jpg">
 </p>
 
-# 𝙈𝙄𝙎𝙎 𝙆𝙍𝙄𝙎𝙏𝙄𝙉𝘼
+# PikachuX
 Me On Telegram [✨PikachuX✨](https://t.me/Pikachu_X_bot)
 
 ## How To Host
