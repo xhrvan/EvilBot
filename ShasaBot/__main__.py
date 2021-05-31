@@ -81,7 +81,7 @@ PM_START_TEXT = """
 buttons = [
     [
         InlineKeyboardButton(
-            text="ᴀᴅᴅ ᴋʀɪsᴛɪɴᴀ ᴛᴏ ʏᴏᴜʀ ɢʀᴏᴜᴘ", url="t.me/Pikachu_X_bot?startgroup=true"),
+            text="ᴀᴅᴅ PikachuX ᴛᴏ ʏᴏᴜʀ ɢʀᴏᴜᴘ", url="t.me/Pikachu_X_bot?startgroup=true"),
     ],
     [
         InlineKeyboardButton(text="ᴀʙᴏᴜᴛ", callback_data="shasa_"),
