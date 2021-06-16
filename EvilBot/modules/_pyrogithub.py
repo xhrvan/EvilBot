@@ -1,8 +1,8 @@
 # © @Mr_Dark_Prince
 import aiohttp
 from pyrogram import filters
-from ShasaBot import pbot
-from ShasaBot.pyrogramee.errors import capture_err
+from EvilBot import pbot
+from EvilBot.pyrogramee.errors import capture_err
 
 
 __mod_name__ = "Github"
