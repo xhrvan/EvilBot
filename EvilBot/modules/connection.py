@@ -5,10 +5,10 @@ from telegram import ParseMode, InlineKeyboardMarkup, InlineKeyboardButton, Upda
 from telegram.error import BadRequest, Unauthorized
 from telegram.ext import CommandHandler, CallbackQueryHandler, run_async
 
-import ShasaBot.modules.sql.connection_sql as sql
-from ShasaBot import dispatcher, DRAGONS, DEV_USERS
-from ShasaBot.modules.helper_funcs import chat_status
-from ShasaBot.modules.helper_funcs.alternate import send_message, typing_action
+import EvilBot.modules.sql.connection_sql as sql
+from EvilBot import dispatcher, DRAGONS, DEV_USERS
+from EvilBot.modules.helper_funcs import chat_status
+from EvilBot.modules.helper_funcs.alternate import send_message, typing_action
 
 user_admin = chat_status.user_admin
 
