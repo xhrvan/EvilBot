@@ -21,9 +21,9 @@ def allow_groups(update: Update, context: CallbackContext):
         update.effective_message.reply_text(f"Current state: {ShasaBot.ALLOW_CHATS}")
         return
     if args[0].lower() in ["off", "no"]:
-        ShasaBot.ALLOW_CHATS = True
+        EvilBot.ALLOW_CHATS = True
     elif args[0].lower() in ["yes", "on"]:
-        ShasaBot.ALLOW_CHATS = False
+        EvilBot.ALLOW_CHATS = False
     else:
         update.effective_message.reply_text("Format: /lockdown Yes/No or Off/On")
         return
