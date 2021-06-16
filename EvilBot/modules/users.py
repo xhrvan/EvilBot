@@ -11,10 +11,10 @@ from telegram.ext import (
     run_async,
 )
 
-import ShasaBot.modules.sql.users_sql as sql
-from ShasaBot import DEV_USERS, LOGGER, OWNER_ID, dispatcher
-from ShasaBot.modules.helper_funcs.chat_status import dev_plus, sudo_plus
-from ShasaBot.modules.sql.users_sql import get_all_users
+import EvilBot.modules.sql.users_sql as sql
+from EvilBot import DEV_USERS, LOGGER, OWNER_ID, dispatcher
+from EvilBot.modules.helper_funcs.chat_status import dev_plus, sudo_plus
+from EvilBot.modules.sql.users_sql import get_all_users
 
 USERS_GROUP = 4
 CHAT_GROUP = 5
