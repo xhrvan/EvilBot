@@ -1,10 +1,10 @@
 # 🙈 Give me ⭐️ before kanging code
-# © @Mr_Dark_Prince 🌚
+# © 🌚
 
 import requests
 url = "https://iamai.p.rapidapi.com/ask"
-from ShasaBot import telethn, OWNER_ID
-from ShasaBot.events import register
+from EvilBot import telethn, OWNER_ID
+from EvilBot.events import register
 from telethon import events
 from telethon import types
 from telethon.tl import functions
