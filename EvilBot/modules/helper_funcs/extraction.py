@@ -1,7 +1,7 @@
 from typing import List, Optional
 
-from ShasaBot import LOGGER
-from ShasaBot.modules.users import get_user_id
+from EvilBot import LOGGER
+from EvilBot.modules.users import get_user_id
 from telegram import Message, MessageEntity
 from telegram.error import BadRequest
 
