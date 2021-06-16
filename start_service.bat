@@ -27,5 +27,5 @@ if '%errorlevel%' NEQ '0' (
 :--------------------------------------
 :: your commands begin from this point.
 :: stops the service and then starts it 
-net stop ShasaBot
-net start ShasaBot
+net stop EvilBot
+net start EvilBot
