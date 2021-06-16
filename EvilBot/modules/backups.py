@@ -5,23 +5,23 @@ from telegram import ParseMode, Message
 from telegram.error import BadRequest
 from telegram.ext import CommandHandler, run_async
 
-import ShasaBot.modules.sql.notes_sql as sql
-from ShasaBot import dispatcher, LOGGER, OWNER_ID, JOIN_LOGGER, SUPPORT_CHAT
-from ShasaBot.__main__ import DATA_IMPORT
-from ShasaBot.modules.helper_funcs.chat_status import user_admin
-from ShasaBot.modules.helper_funcs.alternate import typing_action
+import EvilBot.modules.sql.notes_sql as sql
+from EvilBot import dispatcher, LOGGER, OWNER_ID, JOIN_LOGGER, SUPPORT_CHAT
+from EvilBot.__main__ import DATA_IMPORT
+from EvilBot.modules.helper_funcs.chat_status import user_admin
+from EvilBot.modules.helper_funcs.alternate import typing_action
 
-# from ShasaBot.modules.rules import get_rules
-import ShasaBot.modules.sql.rules_sql as rulessql
+# from EvilBot.modules.rules import get_rules
+import EvilBot.modules.sql.rules_sql as rulessql
 
-# from ShasaBot.modules.sql import warns_sql as warnssql
-import ShasaBot.modules.sql.blacklist_sql as blacklistsql
-from ShasaBot.modules.sql import disable_sql as disabledsql
+# from EvilBot.modules.sql import warns_sql as warnssql
+import EvilBot.modules.sql.blacklist_sql as blacklistsql
+from EvilBot.modules.sql import disable_sql as disabledsql
 
-# from ShasaBot.modules.sql import cust_filters_sql as filtersql
-# import ShasaBot.modules.sql.welcome_sql as welcsql
-import ShasaBot.modules.sql.locks_sql as locksql
-from ShasaBot.modules.connection import connected
+# from EvilBot.modules.sql import cust_filters_sql as filtersql
+# import EvilBot.modules.sql.welcome_sql as welcsql
+import EvilBot.modules.sql.locks_sql as locksql
+from EvilBot.modules.connection import connected
 
 
 @run_async
