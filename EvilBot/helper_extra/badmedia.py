@@ -1,4 +1,4 @@
-from ShasaBot import telethn as tbot
+from EvilBot import telethn as tbot
 import requests
 import time
 
