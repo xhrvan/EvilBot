@@ -2,7 +2,7 @@ import os
 
 from telethon.tl.types import *
 
-from ShasaBot.pyrogramee.pluginshelper import runcmd
+from EvilBot.pyrogramee.pluginshelper import runcmd
 
 
 async def convert_to_image(event, borg):
