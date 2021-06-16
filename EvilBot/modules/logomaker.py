@@ -1,6 +1,6 @@
-from ShasaBot.events import register
-from ShasaBot import OWNER_ID
-from ShasaBot import telethn as tbot
+from EvilBot.events import register
+from EvilBot import OWNER_ID
+from EvilBot import telethn as tbot
 import os 
 from PIL import Image, ImageDraw, ImageFont
 
