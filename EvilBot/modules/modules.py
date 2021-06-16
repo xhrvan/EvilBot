@@ -1,8 +1,8 @@
 import importlib
 import collections
 
-from ShasaBot import dispatcher, telethn
-from ShasaBot.__main__ import (
+from EvilBot import dispatcher, telethn
+from EvilBot.__main__ import (
     CHAT_SETTINGS,
     DATA_EXPORT,
     DATA_IMPORT,
@@ -13,7 +13,7 @@ from ShasaBot.__main__ import (
     USER_INFO,
     USER_SETTINGS,
 )
-from ShasaBot.modules.helper_funcs.chat_status import dev_plus, sudo_plus
+from EvilBot.modules.helper_funcs.chat_status import dev_plus, sudo_plus
 from telegram import ParseMode, Update
 from telegram.ext import CallbackContext, CommandHandler, run_async
 
