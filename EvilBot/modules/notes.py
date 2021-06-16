@@ -3,14 +3,14 @@ from io import BytesIO
 import random
 from typing import Optional
 
-import ShasaBot.modules.sql.notes_sql as sql
-from ShasaBot import LOGGER, JOIN_LOGGER, SUPPORT_CHAT, dispatcher, DRAGONS
-from ShasaBot.modules.disable import DisableAbleCommandHandler
-from ShasaBot.modules.helper_funcs.handlers import MessageHandlerChecker
-from ShasaBot.modules.helper_funcs.chat_status import user_admin, connection_status
-from ShasaBot.modules.helper_funcs.misc import build_keyboard, revert_buttons
-from ShasaBot.modules.helper_funcs.msg_types import get_note_type
-from ShasaBot.modules.helper_funcs.string_handling import (
+import EvilBot.modules.sql.notes_sql as sql
+from EvilBot import LOGGER, JOIN_LOGGER, SUPPORT_CHAT, dispatcher, DRAGONS
+from EvilBot.modules.disable import DisableAbleCommandHandler
+from EvilBot.modules.helper_funcs.handlers import MessageHandlerChecker
+from EvilBot.modules.helper_funcs.chat_status import user_admin, connection_status
+from EvilBot.modules.helper_funcs.misc import build_keyboard, revert_buttons
+from EvilBot.modules.helper_funcs.msg_types import get_note_type
+from EvilBot.modules.helper_funcs.string_handling import (
     escape_invalid_curly_brackets,
 )
 from telegram import (
