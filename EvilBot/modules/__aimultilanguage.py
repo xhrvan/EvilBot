@@ -69,7 +69,7 @@ async def hmm(_, message):
             await lel.edit("shasa AI Was Not Activated In This Chat")
             return
         await lel.edit(
-            f"shasa AI Successfully Deactivated For Users In The Chat {message.chat.id}"
+            f"evil AI Successfully Deactivated For Users In The Chat {message.chat.id}"
         )
 
     elif status == "EN" or status == "en" or status == "english":
@@ -85,7 +85,7 @@ async def hmm(_, message):
         )
 
 
-@shasa.on_message(
+@evil.on_message(
     filters.text & filters.reply & ~filters.bot & ~filters.via_bot & ~filters.forwarded,
     group=2,
 )
@@ -189,7 +189,7 @@ async def hmm(client, message):
             print(e)
 
 
-@shasa.on_message(filters.text & filters.private & filters.reply & ~filters.bot)
+@evil.on_message(filters.text & filters.private & filters.reply & ~filters.bot)
 async def inuka(client, message):
     msg = message.text
     if msg.startswith("/") or msg.startswith("@"):
@@ -259,7 +259,7 @@ async def inuka(client, message):
         print(e)
 
 
-@shasa.on_message(
+@evil.on_message(
     filters.regex("shasa|Shasa|huntinbots|hello|hi")
     & ~filters.bot
     & ~filters.via_bot
