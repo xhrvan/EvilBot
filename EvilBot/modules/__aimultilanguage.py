@@ -59,14 +59,14 @@ async def hmm(_, message):
             await lel.edit("evil AI Already Activated In This Chat")
             return
         await lel.edit(
-            f"shasa AI Successfully Added For Users In The Chat {message.chat.id}"
+            f"evil AI Successfully Added For Users In The Chat {message.chat.id}"
         )
 
     elif status == "OFF" or status == "off" or status == "Off":
         lel = await edit_or_reply(message, "`Processing...`")
         Escobar = remove_chat(int(message.chat.id))
         if not Escobar:
-            await lel.edit("shasa AI Was Not Activated In This Chat")
+            await lel.edit("evil AI Was Not Activated In This Chat")
             return
         await lel.edit(
             f"evil AI Successfully Deactivated For Users In The Chat {message.chat.id}"
