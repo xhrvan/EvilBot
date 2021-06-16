@@ -4,10 +4,10 @@ from telethon import events
 from telethon.errors import ChatAdminRequiredError, UserAdminInvalidError
 from telethon.tl.functions.channels import EditBannedRequest
 from telethon.tl.types import ChatBannedRights, ChannelParticipantsAdmins
-from ShasaBot import telethn
-from ShasaBot.events import register
+from EvilBot import telethn
+from EvilBot.events import register
 
-from ShasaBot import telethn, OWNER_ID, DEV_USERS, DRAGONS, DEMONS
+from EvilBot import telethn, OWNER_ID, DEV_USERS, DRAGONS, DEMONS
 
 # =================== CONSTANT ===================
 
