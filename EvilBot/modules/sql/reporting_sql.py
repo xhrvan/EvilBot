@@ -1,7 +1,7 @@
 import threading
 from typing import Union
 
-from ShasaBot.modules.sql import BASE, SESSION
+from EvilBot.modules.sql import BASE, SESSION
 from sqlalchemy import Boolean, Column, Integer, String
 
 
