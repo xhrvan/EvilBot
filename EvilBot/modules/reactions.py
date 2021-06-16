@@ -3,8 +3,8 @@ import random
 from telegram import Bot, Update
 from telegram.ext import run_async
 
-from ShasaBot import dispatcher
-from ShasaBot.modules.disable import DisableAbleCommandHandler
+from EvilBot import dispatcher
+from EvilBot.modules.disable import DisableAbleCommandHandler
 
 reactions = [
     "( ͡° ͜ʖ ͡°)",
