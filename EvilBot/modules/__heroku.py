@@ -5,8 +5,8 @@ import os
 import heroku3
 import requests
 
-from ShasaBot import telethn as borg, HEROKU_APP_NAME, HEROKU_API_KEY, OWNER_ID
-from ShasaBot.events import register
+from EvilBot import telethn as borg, HEROKU_APP_NAME, HEROKU_API_KEY, OWNER_ID
+from EvilBot.events import register
 
 heroku_api = "https://api.heroku.com"
 Heroku = heroku3.from_key(HEROKU_API_KEY)
