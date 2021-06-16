@@ -199,7 +199,7 @@ except BaseException:
     sys.exit(1)
 
 updater = tg.Updater(TOKEN, workers=WORKERS, use_context=True)
-telethn = TelegramClient("shasa", API_ID, API_HASH)
+telethn = TelegramClient("evil", API_ID, API_HASH)
 pbot = Client("shasapbot", api_id=API_ID, api_hash=API_HASH, bot_token=TOKEN)
 dispatcher = updater.dispatcher
 
@@ -210,7 +210,7 @@ DEMONS = list(DEMONS)
 TIGERS = list(TIGERS)
 
 # Load at end to ensure all prev variables have been set
-from ShasaBot.modules.helper_funcs.handlers import (
+from EvilBot.modules.helper_funcs.handlers import (
     CustomCommandHandler,
     CustomMessageHandler,
     CustomRegexHandler,
