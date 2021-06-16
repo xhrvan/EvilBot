@@ -1,20 +1,20 @@
 import html
 from typing import Optional
 
-from ShasaBot import LOGGER, TIGERS, dispatcher
-from ShasaBot.modules.helper_funcs.chat_status import (
+from EvilBot import LOGGER, TIGERS, dispatcher
+from EvilBot.modules.helper_funcs.chat_status import (
     bot_admin,
     can_restrict,
     connection_status,
     is_user_admin,
     user_admin,
 )
-from ShasaBot.modules.helper_funcs.extraction import (
+from EvilBot.modules.helper_funcs.extraction import (
     extract_user,
     extract_user_and_text,
 )
-from ShasaBot.modules.helper_funcs.string_handling import extract_time
-from ShasaBot.modules.log_channel import loggable
+from EvilBot.modules.helper_funcs.string_handling import extract_time
+from EvilBot.modules.log_channel import loggable
 from telegram import Bot, Chat, ChatPermissions, ParseMode, Update
 from telegram.error import BadRequest
 from telegram.ext import CallbackContext, CommandHandler, run_async
