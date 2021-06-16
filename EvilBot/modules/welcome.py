@@ -5,8 +5,8 @@ import time
 from functools import partial
 from contextlib import suppress
 
-import ShasaBot.modules.sql.welcome_sql as sql
-import ShasaBot
+import EvilBot.modules.sql.welcome_sql as sql
+import EvilBot
 from ShasaBot import (
     DEV_USERS,
     LOGGER,
@@ -19,18 +19,18 @@ from ShasaBot import (
     dispatcher,
     JOIN_LOGGER
 )
-from ShasaBot.modules.helper_funcs.chat_status import (
+from EvilBot.modules.helper_funcs.chat_status import (
     is_user_ban_protected,
     user_admin,
 )
-from ShasaBot.modules.helper_funcs.misc import build_keyboard, revert_buttons
-from ShasaBot.modules.helper_funcs.msg_types import get_welcome_type
-from ShasaBot.modules.helper_funcs.string_handling import (
+from EvilBot.modules.helper_funcs.misc import build_keyboard, revert_buttons
+from EvilBot.modules.helper_funcs.msg_types import get_welcome_type
+from EvilBot.modules.helper_funcs.string_handling import (
     escape_invalid_curly_brackets,
     markdown_parser,
 )
-from ShasaBot.modules.log_channel import loggable
-from ShasaBot.modules.sql.global_bans_sql import is_user_gbanned
+from EvilBot.modules.log_channel import loggable
+from EvilBot.modules.sql.global_bans_sql import is_user_gbanned
 from telegram import (
     ChatPermissions,
     InlineKeyboardButton,
