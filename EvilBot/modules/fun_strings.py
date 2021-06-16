@@ -25,7 +25,7 @@ GIFS = [
     "CgACAgUAAx0CU_rCTAABAjdSX1s3fq5iEJ64YeQLKI8cD7CSuSEAAlUBAAJu09hW5iqWB0hTPD4bBA",
 ]
 
-SLAP_SHASA_TEMPLATES = (
+SLAP_EVIL_TEMPLATES = (
     "Slap me one more time and I'll mute you.",
     "Stop slapping me. REEEEEEEEEEEEEE.",
     [
