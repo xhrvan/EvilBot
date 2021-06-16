@@ -309,7 +309,7 @@ async def inuka(client, message):
 
     # Kang with the credits bitches @InukaASiTH
     test = test.replace("evil", "Aco")
-    test = test.replace("shasa", "Aco")
+    test = test.replace("evil", "Aco")
     querystring = {
         "bid": "178",
         "key": "sX5A2PcYZbsN5EY6",
@@ -324,7 +324,7 @@ async def inuka(client, message):
     result = response.text
     result = result.replace('{"cnt":"', "")
     result = result.replace('"}', "")
-    result = result.replace("Aco", "shasa")
+    result = result.replace("Aco", "evil")
     result = result.replace("<a href=\\", "<a href =")
     result = result.replace("<\/a>", "</a>")
     pro = result
