@@ -1,17 +1,17 @@
 import html
 from typing import Optional
 
-import ShasaBot.modules.sql.blsticker_sql as sql
-from ShasaBot import LOGGER, dispatcher
-from ShasaBot.modules.connection import connected
-from ShasaBot.modules.disable import DisableAbleCommandHandler
-from ShasaBot.modules.helper_funcs.alternate import send_message
-from ShasaBot.modules.helper_funcs.chat_status import user_admin, user_not_admin
-from ShasaBot.modules.helper_funcs.misc import split_message
-from ShasaBot.modules.helper_funcs.string_handling import extract_time
+import EvilBot.modules.sql.blsticker_sql as sql
+from EvilBot import LOGGER, dispatcher
+from EvilBot.modules.connection import connected
+from EvilBot.modules.disable import DisableAbleCommandHandler
+from EvilBot.modules.helper_funcs.alternate import send_message
+from EvilBot.modules.helper_funcs.chat_status import user_admin, user_not_admin
+from EvilBot.modules.helper_funcs.misc import split_message
+from EvilBot.modules.helper_funcs.string_handling import extract_time
 
-from ShasaBot.modules.log_channel import loggable
-from ShasaBot.modules.warns import warn
+from EvilBot.modules.log_channel import loggable
+from EvilBot.modules.warns import warn
 from telegram import Chat, Message, ParseMode, Update, User, ChatPermissions
 from telegram.error import BadRequest
 from telegram.ext import CallbackContext, CommandHandler, Filters, MessageHandler
