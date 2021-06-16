@@ -5,10 +5,10 @@ import sys
 from contextlib import suppress
 from time import sleep
 
-import ShasaBot
+import EvilBot
 
-from ShasaBot import dispatcher
-from ShasaBot.modules.helper_funcs.chat_status import dev_plus
+from EvilBot import dispatcher
+from EvilBot.modules.helper_funcs.chat_status import dev_plus
 from telegram import TelegramError, Update
 from telegram.error import Unauthorized
 from telegram.ext import CallbackContext, CommandHandler, run_async
