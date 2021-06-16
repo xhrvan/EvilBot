@@ -1,6 +1,6 @@
 #    Copyright (C) 2020-2021 by @AmarnathCdj & @InukaAsith
 #    Chatbot system written by @AmarnathCdj databse added and recoded for pyrogram by @InukaAsith
-#    This programme is a part of shasa (TG bot) project
+#    This programme is a part of evil (TG bot) project
 #
 #    This program is free software: you can redistribute it and/or modify
 #    it under the terms of the GNU Affero General Public License as published by
@@ -25,9 +25,9 @@ url = "https://acobot-brainshop-ai-v1.p.rapidapi.com/get"
 from google_trans_new import google_translator
 from pyrogram import filters
 
-from ShasaBot.helper_extra.aichat import add_chat, get_session, remove_chat
-from ShasaBot.pyrogramee.pluginshelper import admins_only, edit_or_reply
-from ShasaBot import pbot as shasa
+from EvilBot.helper_extra.aichat import add_chat, get_session, remove_chat
+from EvilBot.pyrogramee.pluginshelper import admins_only, edit_or_reply
+from EvilBot import pbot as shasa
 
 translator = google_translator()
 
@@ -36,12 +36,12 @@ def extract_emojis(s):
     return "".join(c for c in s if c in emoji.UNICODE_EMOJI)
 
 BOT_ID = 1791708933
-shasa_chats = []
+evil_chats = []
 en_chats = []
 # AI Chat (C) 2020-2021 by @InukaAsith
 
 
-@shasa.on_message(filters.command("chatbot") & ~filters.edited & ~filters.bot)
+@evil.on_message(filters.command("chatbot") & ~filters.edited & ~filters.bot)
 @admins_only
 async def hmm(_, message):
     global asuna_chats
