@@ -1,9 +1,9 @@
-from ShasaBot import telethn as tbot
+from EvilBot import telethn as tbot
 import json
 import os
 os.system("pip installPyDictionary")
 import requests
-from ShasaBot.events import register
+from EvilBot.events import register
 from telethon import *
 from telethon.tl import functions
 import os
