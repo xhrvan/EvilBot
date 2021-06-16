@@ -25,21 +25,21 @@ from google_trans_new import google_translator
 from telethon import events
 from telethon.tl.types import ChatBannedRights
 
-from ShasaBot import BOT_ID
-from ShasaBot.conf import get_int_key, get_str_key
+from EvilBot import BOT_ID
+from EvilBot.conf import get_int_key, get_str_key
 
-# from ShasaBot.db.mongo_helpers.nsfw_guard import add_chat, get_all_nsfw_chats, is_chat_in_db, rm_chat
-from ShasaBot.pyrogramee.telethonbasics import is_admin
-from ShasaBot.events import register
-from ShasaBot import MONGO_DB_URI 
+# from EvilBot.db.mongo_helpers.nsfw_guard import add_chat, get_all_nsfw_chats, is_chat_in_db, rm_chat
+from EvilBot.pyrogramee.telethonbasics import is_admin
+from EvilBot.events import register
+from EvilBot import MONGO_DB_URI 
 from pymongo import MongoClient
-from ShasaBot.modules.sql_extended.nsfw_watch_sql import (
+from EvilBot.modules.sql_extended.nsfw_watch_sql import (
     add_nsfwatch,
     get_all_nsfw_enabled_chat,
     is_nsfwatch_indb,
     rmnsfwatch,
 )
-from ShasaBot import telethn as tbot
+from EvilBot import telethn as tbot
 
 translator = google_translator()
 MUTE_RIGHTS = ChatBannedRights(until_date=None, send_messages=False)
@@ -48,7 +48,7 @@ MONGO_DB_URI = get_str_key("MONGO_DB_URI")
 
 client = MongoClient()
 client = MongoClient(MONGO_DB_URI)
-db = client["ShasaBot"]
+db = client["EvilBot"]
 
 async def is_nsfw(event):
     lmao = event
@@ -430,7 +430,7 @@ async def del_profanity(event):
 
 __help__ = """
 <b> Group Guardian: </b>
-✪ Shasa can protect your group from NSFW senders, Slag word users and also can force members to use English
+✪ Evil can protect your group from NSFW senders, Slag word users and also can force members to use English
 
 <b>Commmands</b>
  - /gshield <i>on/off</i> - Enable|Disable Porn cleaning
