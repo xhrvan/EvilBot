@@ -7,7 +7,7 @@ from telegram import Message, Chat, Update, Bot, MessageEntity
 from telegram import ParseMode
 from telegram.ext import CommandHandler, run_async
 
-from ShasaBot import dispatcher, updater
+from EvilBot import dispatcher, updater
 
 
 def is_user_in_chat(chat: Chat, user_id: int) -> bool:
