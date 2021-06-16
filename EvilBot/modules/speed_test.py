@@ -1,7 +1,7 @@
 import speedtest
-from ShasaBot import DEV_USERS, dispatcher
-from ShasaBot.modules.disable import DisableAbleCommandHandler
-from ShasaBot.modules.helper_funcs.chat_status import dev_plus
+from EvilBot import DEV_USERS, dispatcher
+from EvilBot.modules.disable import DisableAbleCommandHandler
+from EvilBot.modules.helper_funcs.chat_status import dev_plus
 from telegram import InlineKeyboardButton, InlineKeyboardMarkup, ParseMode, Update
 from telegram.ext import CallbackContext, CallbackQueryHandler, run_async
 
