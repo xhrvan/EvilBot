@@ -1,8 +1,8 @@
 import time
 from telethon import events
 
-from ShasaBot import telethn
-from ShasaBot.modules.helper_funcs.telethn.chatstatus import (
+from EvilBot import telethn
+from EvilBot.modules.helper_funcs.telethn.chatstatus import (
     can_delete_messages,
     user_is_admin,
 )
