@@ -2,11 +2,11 @@ import html
 import random
 import time
 
-import ShasaBot.modules.fun_strings as fun_strings
-from ShasaBot import dispatcher
-from ShasaBot.modules.disable import DisableAbleCommandHandler
-from ShasaBot.modules.helper_funcs.chat_status import is_user_admin
-from ShasaBot.modules.helper_funcs.extraction import extract_user
+import EvilBot.modules.fun_strings as fun_strings
+from EvilBot import dispatcher
+from EvilBot.modules.disable import DisableAbleCommandHandler
+from EvilBot.modules.helper_funcs.chat_status import is_user_admin
+from EvilBot.modules.helper_funcs.extraction import extract_user
 from telegram import ChatPermissions, ParseMode, Update
 from telegram.error import BadRequest
 from telegram.ext import CallbackContext, run_async
