@@ -1,4 +1,4 @@
-from ShasaBot import DEV_USERS, DRAGONS, DEMONS
+from EvilBot import DEV_USERS, DRAGONS, DEMONS
 from telegram import Message
 from telegram.ext import BaseFilter
 
