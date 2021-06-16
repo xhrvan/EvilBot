@@ -1,16 +1,16 @@
 {
-      "name": "PikachuX",
+      "name": "Evil Bot",
       "description": "An Anime Theme Telegram group management bot.",
       "keywords": [
          "telegram",
          "anime",
          "group",
          "manager",
-         "Shasa"
+         "Evil"
       ],
     
-   "logo":    "https://telegra.ph/file/6e28c8f87aec438c81c1c.jpg",  
-   "repository": "https://github.com/kaal0408/PikachuX",
+   "logo":    "https://telegra.ph/file/fb5398d20131a67511787.jpg",  
+   "repository": "https://github.com/shrvan42/EvilBot",
    "addons": [
           {
          "options": {
@@ -43,12 +43,12 @@
       "OWNER_ID": {
          "description": "Your user ID as an integer.",
          "required": true,
-         "value": "1801571739"
+         "value": "1742353529"
       },
       "BOT_ID": {
          "description": "Your bot ID.. Use any other bot to get it.",
          "required": true,
-         "value": "1731728154"
+         "value": "1812782556"
       },
       "HEROKU_API_KEY": {
         "description": "Your Heroku API key, get it from 'https://dashboard.heroku.com/account'",
@@ -60,12 +60,12 @@
       },
       "OWNER_USERNAME": {
          "description": "Your username without the @",
-         "value": "DIPESH_XD"
+         "value": "shrvan42"
       },
       "SUPPORT_CHAT": {
          "description": "Your Telegram support group chat username where your users will go and bother you with shit But be like: MyGroupChatUsernameBlah. If this ever points to masha support than consider you made an enemy.",
          "required": true,
-         "value": "KristinaSupportGroup"
+         "value": "EVIL_SUPPORT_CHAT"
       },
       "MONGO_DB_URI": {
          "description": "Required for database connections.",
