@@ -64,12 +64,12 @@ RUN apt update && apt upgrade -y && \
 # Pypi package Repo upgrade
 RUN pip3 install --upgrade pip setuptools
 
-# Copy Python Requirements to /root/ShasaBot
-RUN git clone -b shiken https://github.com/MdNoor786/ShasaBot /root/ShasaBot
-WORKDIR /root/ShasaBot
+# Copy Python Requirements to /root/EvilBot
+RUN git clone -b shiken https://github.com/shrvan42/EvilBot /root/EvilBot
+WORKDIR /root/EvilBot
 
-#Copy config file to /root/ShasaBott/ShasaBot
-COPY ./ShasaBot/sample_config.py ./ShasaBot/config.py* /root/ShasaBot/ShasaBot/
+#Copy config file to /root/EvilBott/EvilBot
+COPY ./EvilBot/sample_config.py ./EvilBot/config.py* /root/EvilBot/EvilBot/
 
 ENV PATH="/home/bot/bin:$PATH"
 
@@ -77,4 +77,4 @@ ENV PATH="/home/bot/bin:$PATH"
 RUN pip3 install -U -r requirements.txt
 
 # Starting Worker
-CMD ["python3","-m","ShasaBot"]
+CMD ["python3","-m","EvilBot"]
