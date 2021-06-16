@@ -1,11 +1,11 @@
-from ShasaBot import telethn as tbot
+from EvilBot import telethn as tbot
 import os
 import re
 import bs4
 import requests
 from telethon import types
 from telethon.tl import functions
-from ShasaBot.events import register
+from EvilBot.events import register
 
 langi = "en"
 
