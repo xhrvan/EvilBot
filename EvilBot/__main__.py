@@ -73,7 +73,7 @@ buttons = [
             text="𝐀𝐝𝐝 𝐄𝐯𝐢𝐥 𝐑𝐨𝐛𝐨𝐭 𝐘𝐨𝐮𝐫 𝐏𝐥𝐚𝐜𝐞😇", url="t.me/EVIL_XOBOT?startgroup=true"),
     ],
      [
-        InlineKeyboardButton(text="𝐀𝐛𝐨𝐮𝐭💝", callback_data="shasa_"),
+        InlineKeyboardButton(text="𝐀𝐛𝐨𝐮𝐭💝", callback_data="evil_"),
         InlineKeyboardButton(
             text="𝐄𝐯𝐢𝐥 𝐖𝐞𝐛🌐", url=f"http://evilbotz.art.blog"
         ),
