@@ -6,8 +6,8 @@ import textwrap
 import traceback
 from contextlib import redirect_stdout
 
-from ShasaBot import LOGGER, dispatcher
-from ShasaBot.modules.helper_funcs.chat_status import dev_plus
+from EvilBot import LOGGER, dispatcher
+from EvilBot.modules.helper_funcs.chat_status import dev_plus
 from telegram import ParseMode, Update
 from telegram.ext import CallbackContext, CommandHandler, run_async
 
