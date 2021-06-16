@@ -15,25 +15,25 @@ from telegram.ext import (
 )
 from telegram.utils.helpers import mention_html, escape_markdown
 
-from ShasaBot import dispatcher, LOGGER, DRAGONS
-from ShasaBot.modules.disable import DisableAbleCommandHandler
-from ShasaBot.modules.helper_funcs.handlers import MessageHandlerChecker
-from ShasaBot.modules.helper_funcs.chat_status import user_admin
-from ShasaBot.modules.helper_funcs.extraction import extract_text
-from ShasaBot.modules.helper_funcs.filters import CustomFilters
-from ShasaBot.modules.helper_funcs.misc import build_keyboard_parser
-from ShasaBot.modules.helper_funcs.msg_types import get_filter_type
-from ShasaBot.modules.helper_funcs.string_handling import (
+from EvilBot import dispatcher, LOGGER, DRAGONS
+from EvilBot.modules.disable import DisableAbleCommandHandler
+from EvilBot.modules.helper_funcs.handlers import MessageHandlerChecker
+from EvilBot.modules.helper_funcs.chat_status import user_admin
+from EvilBot.modules.helper_funcs.extraction import extract_text
+from EvilBot.modules.helper_funcs.filters import CustomFilters
+from EvilBot.modules.helper_funcs.misc import build_keyboard_parser
+from EvilBot.modules.helper_funcs.msg_types import get_filter_type
+from EvilBot.modules.helper_funcs.string_handling import (
     split_quotes,
     button_markdown_parser,
     escape_invalid_curly_brackets,
     markdown_to_html,
 )
-from ShasaBot.modules.sql import cust_filters_sql as sql
+from EvilBot.modules.sql import cust_filters_sql as sql
 
-from ShasaBot.modules.connection import connected
+from EvilBot.modules.connection import connected
 
-from ShasaBot.modules.helper_funcs.alternate import send_message, typing_action
+from EvilBot.modules.helper_funcs.alternate import send_message, typing_action
 
 HANDLER_GROUP = 10
 
