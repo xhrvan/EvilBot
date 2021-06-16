@@ -3,9 +3,9 @@ import re
 from typing import Optional
 
 import telegram
-from ShasaBot import TIGERS, WOLVES, dispatcher
-from ShasaBot.modules.disable import DisableAbleCommandHandler
-from ShasaBot.modules.helper_funcs.chat_status import (
+from EvilBot import TIGERS, WOLVES, dispatcher
+from EvilBot.modules.disable import DisableAbleCommandHandler
+from EvilBot.modules.helper_funcs.chat_status import (
     bot_admin,
     can_restrict,
     is_user_admin,
@@ -14,16 +14,16 @@ from ShasaBot.modules.helper_funcs.chat_status import (
     user_admin_no_reply,
     can_delete,
 )
-from ShasaBot.modules.helper_funcs.extraction import (
+from EvilBot.modules.helper_funcs.extraction import (
     extract_text,
     extract_user,
     extract_user_and_text,
 )
-from ShasaBot.modules.helper_funcs.filters import CustomFilters
-from ShasaBot.modules.helper_funcs.misc import split_message
-from ShasaBot.modules.helper_funcs.string_handling import split_quotes
-from ShasaBot.modules.log_channel import loggable
-from ShasaBot.modules.sql import warns_sql as sql
+from EvilBot.modules.helper_funcs.filters import CustomFilters
+from EvilBot.modules.helper_funcs.misc import split_message
+from EvilBot.modules.helper_funcs.string_handling import split_quotes
+from EvilBot.modules.log_channel import loggable
+from EvilBot.modules.sql import warns_sql as sql
 from telegram import (
     CallbackQuery,
     Chat,
@@ -45,7 +45,7 @@ from telegram.ext import (
     run_async,
 )
 from telegram.utils.helpers import mention_html
-from ShasaBot.modules.sql.approve_sql import is_approved
+from EvilBot.modules.sql.approve_sql import is_approved
 
 WARN_HANDLER_GROUP = 9
 CURRENT_WARNING_FILTER_STRING = "<b>Current warning filters in this chat:</b>\n"
