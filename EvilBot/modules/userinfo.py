@@ -32,7 +32,7 @@ from EvilBot.modules.sql.afk_sql import is_afk, check_afk_status
 from EvilBot.modules.sql.users_sql import get_user_num_chats
 from EvilBot.modules.helper_funcs.chat_status import sudo_plus
 from EvilBot.modules.helper_funcs.extraction import extract_user
-from EvilBot import telethn as ShasaTelethonClient, TIGERS, DRAGONS, DEMONS
+from EvilBot import telethn as EvilTelethonClient, TIGERS, DRAGONS, DEMONS
 
 
 def no_by_per(totalhp, percentage):
