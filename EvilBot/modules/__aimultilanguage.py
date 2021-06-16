@@ -98,8 +98,8 @@ async def hmm(client, message):
         message.continue_propagation()
     if chat_id in en_chats:
         test = msg
-        test = test.replace("shasa", "Aco")
-        test = test.replace("shasa", "Aco")
+        test = test.replace("evil", "Aco")
+        test = test.replace("evil", "Aco")
         querystring = {
             "bid": "178",
             "key": "sX5A2PcYZbsN5EY6",
@@ -114,7 +114,7 @@ async def hmm(client, message):
         result = response.text
         result = result.replace('{"cnt":"', "")
         result = result.replace('"}', "")
-        result = result.replace("Aco", "shasa")
+        result = result.replace("Aco", "evil")
         result = result.replace("<a href=\\", "<a href =")
         result = result.replace("<\/a>", "</a>")
         pro = result
@@ -160,8 +160,8 @@ async def hmm(client, message):
         # test = emoji.demojize(test.strip())
 
         # Kang with the credits bitches @InukaASiTH
-        test = test.replace("shasa", "Aco")
-        test = test.replace("shasa", "Aco")
+        test = test.replace("evil", "Aco")
+        test = test.replace("evil", "Aco")
         querystring = {
             "bid": "178",
             "key": "sX5A2PcYZbsN5EY6",
@@ -176,7 +176,7 @@ async def hmm(client, message):
         result = response.text
         result = result.replace('{"cnt":"', "")
         result = result.replace('"}', "")
-        result = result.replace("Aco", "shasa")
+        result = result.replace("Aco", "evil")
         result = result.replace("<a href=\\", "<a href =")
         result = result.replace("<\/a>", "</a>")
         pro = result
@@ -230,8 +230,8 @@ async def inuka(client, message):
     # test = emoji.demojize(test.strip())
 
     # Kang with the credits bitches @InukaASiTH
-    test = test.replace("shasa", "Aco")
-    test = test.replace("shasa", "Aco")
+    test = test.replace("evil", "Aco")
+    test = test.replace("evil", "Aco")
     querystring = {
         "bid": "178",
         "key": "sX5A2PcYZbsN5EY6",
@@ -246,7 +246,7 @@ async def inuka(client, message):
     result = response.text
     result = result.replace('{"cnt":"', "")
     result = result.replace('"}', "")
-    result = result.replace("Aco", "shasa")
+    result = result.replace("Aco", "evil")
     result = result.replace("<a href=\\", "<a href =")
     result = result.replace("<\/a>", "</a>")
     pro = result
@@ -260,7 +260,7 @@ async def inuka(client, message):
 
 
 @evil.on_message(
-    filters.regex("shasa|Shasa|huntinbots|hello|hi")
+    filters.regex("evil|Shasa|huntinbots|hello|hi")
     & ~filters.bot
     & ~filters.via_bot
     & ~filters.forwarded
@@ -308,7 +308,7 @@ async def inuka(client, message):
     # test = emoji.demojize(test.strip())
 
     # Kang with the credits bitches @InukaASiTH
-    test = test.replace("shasa", "Aco")
+    test = test.replace("evil", "Aco")
     test = test.replace("shasa", "Aco")
     querystring = {
         "bid": "178",
