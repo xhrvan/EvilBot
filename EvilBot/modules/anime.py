@@ -5,8 +5,8 @@ import textwrap
 import bs4
 import jikanpy
 import requests
-from ShasaBot import DEV_USERS, OWNER_ID, DRAGONS, dispatcher
-from ShasaBot.modules.disable import DisableAbleCommandHandler
+from EvilBot import DEV_USERS, OWNER_ID, DRAGONS, dispatcher
+from EvilBot.modules.disable import DisableAbleCommandHandler
 from telegram import (InlineKeyboardButton, InlineKeyboardMarkup, ParseMode,
                       Update)
 from telegram.ext import CallbackContext, CallbackQueryHandler, run_async
