@@ -1,8 +1,8 @@
 import os
-from ShasaBot import telethn as tbot
+from EvilBot import telethn as tbot
 from geopy.geocoders import Nominatim
-from ShasaBot.events import register
-from ShasaBot import *
+from EvilBot.events import register
+from EvilBot import *
 from telethon import *
 from telethon.tl import *
 
