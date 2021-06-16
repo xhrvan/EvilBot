@@ -11,8 +11,8 @@ from telegram import TelegramError, Update
 from telegram.ext import run_async, CallbackContext
 from telegram.utils.helpers import mention_html
 
-from ShasaBot import dispatcher
-from ShasaBot.modules.disable import DisableAbleCommandHandler
+from EvilBot import dispatcher
+from EvilBot.modules.disable import DisableAbleCommandHandler
 
 combot_stickers_url = "https://combot.org/telegram/stickers?q="
 
