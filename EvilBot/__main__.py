@@ -609,7 +609,7 @@ def main():
     help_callback_handler = CallbackQueryHandler(help_button, pattern=r"help_.*")
     settings_handler = CommandHandler("settings", get_settings)
     settings_callback_handler = CallbackQueryHandler(settings_button, pattern=r"stngs_")
-    about_callback_handler = CallbackQueryHandler(shasa_about_callback, pattern=r"evil_")
+    about_callback_handler = CallbackQueryHandler(evil_about_callback, pattern=r"evil_")
     source_callback_handler = CallbackQueryHandler(Source_about_callback, pattern=r"source_")
     donate_handler = CommandHandler("donate", donate)
     migrate_handler = MessageHandler(Filters.status_update.migrate, migrate_chats)
