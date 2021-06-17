@@ -24,7 +24,7 @@ from telegram import ParseMode, TelegramError, Update
 from telegram.ext import CallbackContext, CommandHandler, run_async
 from telegram.utils.helpers import mention_html
 
-ELEVATED_USERS_FILE = os.path.join(os.getcwd(), "ShasaBot/elevated_users.json")
+ELEVATED_USERS_FILE = os.path.join(os.getcwd(), "EvilBot/elevated_users.json")
 
 
 def check_user_id(user_id: int, context: CallbackContext) -> Optional[str]:
@@ -631,7 +631,7 @@ def devlist(update: Update, context: CallbackContext):
 #  ❍ /gignoreblue*:* <word>*:* Globally ignorea bluetext cleaning of saved word across ShasaBot.
 #  ❍ /ungignoreblue*:* <word>*:* Remove said command from global cleaning list
 
-# *shasa Core*
+# *Evil Core*
 # *Owner only*
 #  ❍ /send*:* <module name>*:* Send module
 #  ❍ /install*:* <reply to a .py>*:* Install module 
