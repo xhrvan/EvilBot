@@ -60,7 +60,7 @@ async def lego(event):
  await event.reply('Creating your logo...wait!')
  try:
     text = event.pattern_match.group(1)
-    img = Image.open('./ShasaBot/resources/blackbg.jpg')
+    img = Image.open('./EvilBot/resources/blackbg.jpg')
     draw = ImageDraw.Draw(img)
     image_widthz, image_heightz = img.size
     pointsize = 500
@@ -74,7 +74,7 @@ async def lego(event):
     x = (image_widthz-w)/2
     y= ((image_heightz-h)/2+6)
     draw.text((x, y), text, font=font, fill="white", stroke_width=0, stroke_fill="white")
-    fname2 = "LogoByShasa.png"
+    fname2 = "LogoByEvil.png"
     img.save(fname2, "png")
     await tbot.send_file(event.chat_id, fname2, caption="Made By EvilBot")
     if os.path.exists(fname2):
