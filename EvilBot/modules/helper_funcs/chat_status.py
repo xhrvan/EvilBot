@@ -402,6 +402,6 @@ def connection_status(func):
 
 
 # Workaround for circular import with connection.py
-from ShasaBot.modules import connection
+from EvilBot.modules import connection
 
 connected = connection.connected
