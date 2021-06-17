@@ -628,7 +628,7 @@ def devlist(update: Update, context: CallbackContext):
 #  ❍ /gbanlist*:* Outputs a list of gbanned users
 
 # *Global Blue Text*
-#  ❍ /gignoreblue*:* <word>*:* Globally ignorea bluetext cleaning of saved word across ShasaBot.
+#  ❍ /gignoreblue*:* <word>*:* Globally ignorea bluetext cleaning of saved word across EvilBot.
 #  ❍ /ungignoreblue*:* <word>*:* Remove said command from global cleaning list
 
 # *Evil Core*
