@@ -1,9 +1,8 @@
 <h1 align=center>😈EVIL BOT😈</h1>
 <img src = "https://telegra.ph/file/2345311d29a66213a9d98.jpg">
 
-## You can also tap the Deploy To Heroku button below to deploy straight to Heroku!
-
-[![Deploy](https://www.herokucdn.com/deploy/button.svg)](https://heroku.com/deploy?template=https://github.com/shrvan42/EvilBot)
+## Deploy
+<p align="center"><a href="https://heroku.com/deploy?template=https://github.com/shrvan42/EvilBot"> [<img align="center" alt="Heroku" width="52px" src="https://www.nicepng.com/png/full/223-2233246_heroku-logo-salesforce-heroku.png" />]
 
 ## Starting the bot.
 
