@@ -2,8 +2,7 @@
 <img src = "https://telegra.ph/file/2345311d29a66213a9d98.jpg">
 
 ## Deploy
-<p align="center"><a href="https://heroku.com/deploy?template=https://github.com/shrvan42/EvilBot"> [<img align="center" alt="Heroku" width="52px" src="https://www.nicepng.com/png/full/223-2233246_heroku-logo-salesforce-heroku.png" />]
-<p>
+<p align="center"><a href="https://heroku.com/deploy?template=https://github.com/shrvan42/EvilBot"> [<img align="center" alt="Heroku" width="52px" src="https://www.nicepng.com/png/full/223-2233246_heroku-logo-salesforce-heroku.png" />].<p>
 </p>
 <H2 align=center>___________</h2>
 
