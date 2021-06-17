@@ -160,7 +160,7 @@ def get_id(update: Update, context: CallbackContext):
             )
 
 
-@ShasaTelethonClient.on(
+@EvilTelethonClient.on(
     events.NewMessage(
         pattern="/ginfo ", from_users=(TIGERS or []) + (DRAGONS or []) + (DEMONS or [])
     )
