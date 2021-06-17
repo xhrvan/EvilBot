@@ -20,7 +20,9 @@ There are two possible ways of configuring your bot: a config.py file, or ENV va
 
 
 If you can't have a config.py file (EG on heroku), it is also possible to use environment variables.
-The following env variables are supported: .
+The following env variables are supported: 
+<p>
+</p>
  - `API ID`: Your Api Id from [here](https://my.telegram.org).
  - `API HASH`: Your Api Hash from [here](https://my.telegram.org).
  - `ENV`: Setting this to ANYTHING will enable env variables
