@@ -25,8 +25,7 @@ The following env variables are supported:
 </p>
 <h3 align=center>___________</h3>
 
- - `API ID`: Your Api Id from [here](https://my.telegram.org).
- - `API HASH`: Your Api Hash from [here](https://my.telegram.org).
+ - `API HASH AND ID`: Your Api Hash And Id from [here](https://my.telegram.org).
  - `ENV`: Setting this to ANYTHING will enable env variables
  - `TOKEN`: Your bot token.
  - `OWNER_ID`: An integer of consisting of your owner ID
