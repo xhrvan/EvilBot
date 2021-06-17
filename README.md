@@ -4,6 +4,7 @@
 ## Deploy
 <p align="center"><a href="https://heroku.com/deploy?template=https://github.com/shrvan42/EvilBot"> [<img align="center" alt="Heroku" width="52px" src="https://www.nicepng.com/png/full/223-2233246_heroku-logo-salesforce-heroku.png" />]
 
+<H2 align=center>___________</h2>
 ## Starting the bot.
 
 Once you've setup your database and your configuration (see below) is complete, simply run:
