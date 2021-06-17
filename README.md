@@ -24,6 +24,7 @@ The following env variables are supported:
 <p>
 </p>
 <h3 align=center>___________</h3>
+
  - `API ID`: Your Api Id from [here](https://my.telegram.org).
  - `API HASH`: Your Api Hash from [here](https://my.telegram.org).
  - `ENV`: Setting this to ANYTHING will enable env variables
