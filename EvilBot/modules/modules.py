@@ -28,7 +28,7 @@ def load(update: Update, context: CallbackContext):
     )
 
     try:
-        imported_module = importlib.import_module("ShasaBot.modules." + text)
+        imported_module = importlib.import_module("EvilBot.modules." + text)
     except:
         load_messasge.edit_text("Does that module even exist?")
         return
