@@ -25,6 +25,8 @@ The following env variables are supported:
 </p>
 <h3 align=center>___________</h3>
 
+## Variables
+
  - `API HASH AND ID`: Your Api Hash And Id from [here](https://my.telegram.org).
  - `ENV`: Setting this to ANYTHING will enable env variables
  - `TOKEN`: Your bot token.
