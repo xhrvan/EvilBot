@@ -23,7 +23,7 @@ from EvilBot import (
 )
 # needed to dynamically load modules
 # NOTE: Module order is not guaranteed, specify that in the config file!
-from sample_config import BOT_NAME as bn
+from EvilBot.sample_config import BOT_NAME as bn
 from EvilBot.modules import ALL_MODULES
 from EvilBot.modules.helper_funcs.chat_status import is_user_admin
 from EvilBot.modules.helper_funcs.misc import paginate_modules
