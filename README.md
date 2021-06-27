@@ -23,8 +23,8 @@ The following env variables are supported:
 <p>
 </p>
 <h3 align=center>___________</h3>
+
 ## Session String
-Different ways to get your `SESSION`:
 
 * [![Run on Repl.it](https://replit.com/badge/github/TeamUltroid/Ultroid)](https://replit.com/@LionUB/stringsession#main.py)
 
