@@ -70,7 +70,7 @@ PM_START_TEXT = """
 buttons = [
     [
         InlineKeyboardButton(
-            text="𝐀𝐝𝐝 𝐄𝐯𝐢𝐥 𝐑𝐨𝐛𝐨𝐭 𝐘𝐨𝐮𝐫 𝐏𝐥𝐚𝐜𝐞😇", url="t.me/EVIL_XOBOT?startgroup=true"),
+            text="𝐀𝐝𝐝 𝐌𝐞 𝐓𝐨 𝐘𝐨𝐮𝐫 𝐏𝐥𝐚𝐜𝐞😇", url="t.me/EVIL_XOBOT?startgroup=true"),
     ],
      [
         InlineKeyboardButton(text="𝐀𝐛𝐨𝐮𝐭💝", callback_data="evil_"),
@@ -80,7 +80,7 @@ buttons = [
      ],
      [  
         InlineKeyboardButton(text="𝐒𝐮𝐩𝐩𝐨𝐫𝐭🛠", url="https://t.me/EVIL_SUPPORT_CHAT"),
-        InlineKeyboardButton(text="𝐄𝐯𝐢𝐥 𝐃𝐞𝐯𝐬✨", url="https://t.me/EVIL_DEVS"),
+        InlineKeyboardButton(text="𝐑𝐞𝐩𝐨🇮🇳", url="https://github.com/shrvan42/EvilBot"),
     ], 
 
     [
@@ -299,14 +299,15 @@ def evil_about_callback(update, context):
     query = update.callback_query
     if query.data == "evil_":
         query.message.edit_text(
-            text=""" ℹ️ I'm *Evil Robot*, a powerful group management bot built to help you manage your group easily.
+            text=""" ℹ️ I'm powerful group management bot built to help you manage your group easily.
                  \n❍ I can restrict users.
                  \n❍ I can greet users with customizable welcome messages and even set a group's rules.
                  \n❍ I have an advanced anti-flood system.
                  \n❍ I can warn users until they reach max warns, with each predefined actions such as ban, mute, kick, etc.
                  \n❍ I have a note keeping system, blacklists, and even predetermined replies on certain keywords.
                  \n❍ I check for admins' permissions before executing any command and more stuffs
-                 \n\n_Evil's licensed under the GNU General Public License v3.0_ .""",
+                 \n\n_My licensed under the GNU General Public License v3.0_ 
+                      here is this [Repository](https://github.com/shrvan42/EvilBot) .""",
             parse_mode=ParseMode.MARKDOWN,
             disable_web_page_preview=True,
             reply_markup=InlineKeyboardMarkup(
@@ -331,7 +332,7 @@ def Source_about_callback(update, context):
     if query.data == "source_":
         query.message.edit_text(
             text=""" Hey!.. I'm *Evil Robot*
-                 \nHere is the [Source Code](https://t.me/the_evil_network/39) .""",
+                 \nHere is the [Source Code](https://github.com/shrvan42/EvilBot) .""",
             parse_mode=ParseMode.MARKDOWN,
             disable_web_page_preview=True,
             reply_markup=InlineKeyboardMarkup(
