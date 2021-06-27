@@ -185,7 +185,12 @@
       "description": "Make your bot talk using Intellivoid's chatbot API, get your key from https://coffeehouse.intellivoid.net/",
          "required": false,
          "value": ""
-   },      
+   },
+      "STRING_SESSION": {
+         "description": "STRING SESSION.",
+         "required": true,
+         "value": ""
+      } ,     
       "BAN_STICKER": {
          "description": "ID of the sticker you want to use when banning people.",
          "required": false,
