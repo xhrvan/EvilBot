@@ -26,7 +26,7 @@ The following env variables are supported:
 
 ## Session String
 
-* [![Run on Repl.it](https://replit.com/badge/github/TeamUltroid/Ultroid)](https://replit.com/@LionUB/stringsession#main.py)
+* [![Run on Repl.it](https://replit.com/badge/github/TeamUltroid/Ultroid)](http://generatestringsession.sandeep1709.repl.run/)
 
 ## Variables
 
