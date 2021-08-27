@@ -9,7 +9,7 @@ from EvilBot import (
     DONATION_LINK,
     LOGGER,
     OWNER_ID,
-    PORT,
+    PORT
     SUPPORT_CHAT,
     TOKEN,
     URL,
