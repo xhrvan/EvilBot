@@ -3,7 +3,7 @@ import time
 import re
 from sys import argv
 from typing import Optional
-from EvilBot import (
+from PHOENIX import (
     ALLOW_EXCL,
     CERT_PATH,
     DONATION_LINK,
@@ -88,7 +88,7 @@ buttons = [
     ],
 ]
 HELP_STRINGS = """
-`𝙷𝚎𝚢!.. 𝙸'𝚖` 👿 *𝙴𝚟𝚒𝚕 𝚁𝚘𝚋𝚘𝚝* [👿](https://telegra.ph/file/a064bd8497a5f6f03b290.mp4)
+`𝙷𝚎𝚢!.. 𝙸'𝚖` 👿 *Phoenix* [👿](https://telegra.ph/file/a064bd8497a5f6f03b290.mp4)
 `𝙲𝚕𝚒𝚌𝚔 𝚘𝚗 𝚝𝚑𝚎 𝚋𝚞𝚝𝚝𝚘𝚗𝚜 𝚋𝚎𝚕𝚘𝚠 𝚝𝚘 𝚐𝚎𝚝 𝚍𝚘𝚌𝚞𝚖𝚎𝚗𝚝𝚊𝚝𝚒𝚘𝚗 𝚊𝚋𝚘𝚞𝚝 𝚜𝚙𝚎𝚌𝚒𝚏𝚒𝚌 𝚖𝚘𝚍𝚞𝚕𝚎𝚜..`"""
 evil_IMG = "https://telegra.ph/file/5dc8f5c53fb0c39ed983c.jpg"
 DONATE_STRING = """Heya, glad to hear you want to donate!
