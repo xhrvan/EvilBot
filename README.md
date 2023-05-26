@@ -1,5 +1,5 @@
-<h1 align=center>😈EVIL BOT😈</h1>
-<img src = "https://telegra.ph/file/2345311d29a66213a9d98.jpg">
+<h1 align=center>ITACHI UCHIHA</h1>
+<img src = "https://i.redd.it/itachi-uchiha-v0-0u19a9qea8na1.jpg?s=02a21bb9286765bde211d855c7b3668a1a16b27b">
 
 ## You can also tap the Deploy To Heroku button below to deploy straight to Heroku!
 
@@ -28,9 +28,7 @@ The following env variables are supported:
 
 * [![Run on Repl.it](https://replit.com/badge/github/TeamUltroid/Ultroid)](http://generatestringsession.sandeep1709.repl.run/)
 
-## Variables
-
- - `API HASH AND ID`: Your Api Hash And Id from [here](https://my.telegram.org).
+## Variables- `API HASH AND ID`: Your Api Hash And Id from [here](https://my.telegram.org).
  - `ENV`: Setting this to ANYTHING will enable env variables
  - `TOKEN`: Your bot token.
  - `OWNER_ID`: An integer of consisting of your owner ID
